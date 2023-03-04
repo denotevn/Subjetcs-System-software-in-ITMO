@@ -1,10 +1,10 @@
-all: exe lib
+all: exe
 
-exe: main.c solution.h lib
-	gcc main.c -fPIC -ldl -o solution
+exe: solution.c
+	gcc solution.c -fPIC -ldl -o solution
 
-lib: solution.c solution.h
-	gcc -shared solution.c -fPIC -o libsolution.so
+lib: solution.c
+	gcc -shared multiplier.c -fPIC -o libShared.so
 
 clean:
-	-rm solution libsolution.so 2>/dev/null
+	-rm solution 2>/dev/null	

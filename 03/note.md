@@ -12,3 +12,5 @@
   + Vì vậy, fork và exec chủ yếu được sử dụng cùng nhau. Không có fork, exec được sử dụng hạn chế. Và, không có exec, fork hầu như không được sử dụng.
 
 > More information fork() and exec **[Here](https://www.softprayog.in/programming/creating-processes-with-fork-and-exec-in-linux)**
+
+## **[Share memory](https://viblo.asia/p/giao-tiep-giua-cac-tien-trinh-trong-linux-phan-2-su-dung-share-memory-va-message-queue-djeZ1yyYZWz)**

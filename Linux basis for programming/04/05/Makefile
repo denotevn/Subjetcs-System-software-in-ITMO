@@ -1,7 +1,7 @@
 all: exe
 
 exe:	solution.c
-	gcc -Wall solution.c -o solution
+	gcc -std=c99 -o solution solution.c
 
 clean:
 	-rm solution 2>/dev/null
